@@ -1,0 +1,12 @@
+rule all:
+    input:
+        "results/hello_world.txt"
+
+rule hello:
+    output:
+        "results/hello_world.txt"
+    shell:
+        """
+        echo "Hello, World!" > {output}
+        """
+
