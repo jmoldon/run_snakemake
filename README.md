@@ -11,3 +11,16 @@ In `go_snake.sh` you can define the project folders, a conda environment name an
 - deactivate the environment
 
 This is just a template with a minimal working example
+
+# usage
+
+To execute the workflow:
+```bash
+bash go_snake.sh
+```
+You can add additional options that will be parsed to the snakemake command.
+
+To produce dag, filegraph and rulegraph plots
+```bash
+bash go_snake.sh --summary
+```
