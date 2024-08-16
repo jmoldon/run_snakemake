@@ -24,3 +24,5 @@ To produce dag, filegraph and rulegraph plots
 ```bash
 bash go_snake.sh --summary
 ```
+
+If the the `envFile`  exists (default is `$projectFolder/environment.yaml`), the environment defined in `envName` (default `snakemake_env`) will be created if it doesn't exist under your conda installation. You can select the `snakemakeVersion` to be installed if the environment.yaml file does not exist.
